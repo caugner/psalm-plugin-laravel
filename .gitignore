@@ -1,5 +1,6 @@
 composer.phar
 /vendor/
+/vendor-bin/**/vendor/
 composer.lock
 src/cache/*.stubphp
 .DS_Store
