@@ -11,8 +11,7 @@
         "illuminate/database": "^6.0 || ^7.0 || ^8.0",
         "illuminate/http": "^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "vimeo/psalm": "^4.0",
-        "orchestra/testbench": "^3.8 || ^4.0 || ^5.0 || ^6.0"
+        "vimeo/psalm": "^4.0"
     },
     "license": "MIT",
     "authors": [
@@ -49,15 +48,6 @@
         "lint": "phpcs -n",
         "lint-fix": "phpcbf -n",
         "test": "codecept run"
-    },
-    "require-dev": {
-        "codeception/codeception": "^4.1.6",
-        "codeception/module-phpbrowser": "^1.0.0",
-        "codeception/module-asserts": "^1.0.0",
-        "weirdan/codeception-psalm-module": "^0.13.1",
-        "squizlabs/php_codesniffer": "*",
-        "slevomat/coding-standard": "^6.2",
-        "bamarni/composer-bin-plugin": "^1.4.1"
     },
     "minimum-stability": "dev"
 }
